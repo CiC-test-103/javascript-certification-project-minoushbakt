@@ -37,6 +37,16 @@ class LinkedList {
    */
   constructor() {
     // TODO
+    let keys = Object.keys{}
+    let person = {
+      name: "Alice"
+      year: "2"
+      email: "alice.johnson@gmail.com"
+      specialization: "computerScience"
+
+    }
+    console.log{person.name.year.email.specialization}
+
   }
 
   /**
@@ -49,7 +59,8 @@ class LinkedList {
    */
   addStudent(newStudent) {
     // TODO
-  }
+    let person["Alice, "BobSmith", "CatherineBrown"] ;
+      person.push("DavidLee") ;
 
   /**
    * REQUIRES:  email(String)
@@ -61,8 +72,10 @@ class LinkedList {
    */
   removeStudent(email) {
     // TODO
+    let keys = ["name", "year", "email"] ;
+    let sliced = keys.slice(2)
   }
-
+  
   /**
    * REQUIRES:  email (String)
    * EFFECTS:   None
@@ -70,6 +83,8 @@ class LinkedList {
    */
   findStudent(email) {
     // TODO
+    let new object = object.assign(person, email )
+  
     return -1
   }
 
@@ -92,6 +107,10 @@ class LinkedList {
    */
   displayStudents() {
     // TODO
+    const key = "email"
+    const obj = {name = "Alice",   email :  "alice.johnson@gmail.com" }
+    obj(key)
+    obj("email")
     return "";
   }
 
@@ -102,6 +121,8 @@ class LinkedList {
    */
   #sortStudentsByName() {
     // TODO
+    // sort
+    person.sort();
     return [];
   }
 
@@ -114,6 +135,8 @@ class LinkedList {
    */
   filterBySpecialization(specialization) {
     // TODO
+   let filtered = role.filter
+   consol.log(filtered) ;
     return [];
   }
 
@@ -126,6 +149,8 @@ class LinkedList {
    */
   filterByMinAge(minAge) {
     // TODO
+    let filtered = minage.filter(num => num> 15)
+    consol.log(filtered) ;
     return [];
   }
 

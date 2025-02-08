@@ -47,6 +47,10 @@ async function handleCommand(command) {
         console.log('Adding student...')
         const [name, year, email, specialization] = args
         // --------> WRITE YOUR CODE BELOW
+        let newobject = Object.create{person}
+        console.log{newobject}
+        newobject.name = "davidlee"
+        let newobject = object.assign{person, "added"}
 
         // --------> WRITE YOUR CODE ABOVE
         break;
@@ -62,7 +66,8 @@ async function handleCommand(command) {
        */
       console.log('Removing student...')
       // --------> WRITE YOUR CODE BELOW
-      
+      array.shift(i);
+      let i = array.shift()
       // --------> WRITE YOUR CODE ABOVE
       break;
 
